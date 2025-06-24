@@ -3,30 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-
-    <title> Document</title>
+    <title>Document</title>
   </head>
   <body>
-
     <button id="BtnOpenModal">Abrir Modal</button>
 
     <dialog id="Modal" class="modal">
-        <button id="BtnCloseModal"> <i class="fa-solid fa-xmark"></i> </button>
+
+      <button id="BtnCloseModal">
+        
+        <i class="fa-solid fa-xmark">Obliterar imagem</i>
+      </button>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nostrum
         amet maiores eligendi minus, ipsa provident officiis molestiae eum
         dolore deserunt laborum perspiciatis veritatis impedit assumenda.
         Accusamus atque enim non!
       </p>
+      <img id="imagem_imagem"
+        src="C:\Users\suporte\Desktop\JS MODAL\imagem-boa.png"
+        alt="imagem"
+      />
+
+      <div class="escolhas_dificeis" close>
+        
+        <button id="button_not_remove">Não</button>
+        <button id="button_remove">Sim</button>
+
+      </div>
+
     </dialog>
 
-    
     <script src="modal.js"></script>
   </body>
 </html>

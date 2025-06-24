@@ -17,7 +17,7 @@ BtnOpenModal.addEventListener('click', () => (
 
     Modal.classList.toggle('ModalOpen')
 
-
 ))
+
 
 
